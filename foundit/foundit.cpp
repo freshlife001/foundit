@@ -79,10 +79,10 @@ static bool callback(const wchar_t* /*dump_path*/, const wchar_t *id, void* /*co
 	{
 		dmp_id = _T("unknown");
 	}
-	std::wstring msnlite_ver = GetGlobalString(CORE_VER);
+	std::wstring app_ver = GetGlobalString(CORE_VER);
 
 	wchar_t buf[256];
-	swprintf_s(buf, 256, _T("foundit-%d-%d-%d-%d(%s) %s %s"), (WORD)(gs_version >> 48), (WORD)(gs_version >> 32), (WORD)(gs_version >> 16), (WORD)(gs_version),msnlite_ver.c_str(), dmp_id.c_str(), id);
+	swprintf_s(buf, 256, _T("foundit-%d-%d-%d-%d(%s) %s %s"), (WORD)(gs_version >> 48), (WORD)(gs_version >> 32), (WORD)(gs_version >> 16), (WORD)(gs_version),app_ver.c_str(), dmp_id.c_str(), id);
 	
 
 	int iRes = (int)ShellExecute(NULL, L"open", L"ErrorReport.exe", buf, NULL, SW_HIDE); //启动错误报告程序

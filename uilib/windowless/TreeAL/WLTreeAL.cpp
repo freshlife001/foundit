@@ -1,7 +1,6 @@
 #include "StdAfx.h"
 
 #include "WLTreeAL.h"
-#include "msnlite20/resource_common.h"
 #include "common/utils/ImageEx/ImageEx.h"
 #include "common/utils/UIUtils.h"
 

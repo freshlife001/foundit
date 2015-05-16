@@ -74,7 +74,7 @@ int CMainWindow::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 	IEtApi::SearchListenerPtr lptr;
 	lptr.reset(new DummyListener);
-	GetCoreEtApi()->Search(L"msnlite-setup-3.0.0.4045.exe",0, lptr );
+	GetCoreEtApi()->Search(L"app.exe",0, lptr );
 
 	return TRUE;
 }

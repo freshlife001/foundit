@@ -6,7 +6,7 @@
 #include "WLTabItem.h"
 #include "logex.h"
 
-namespace msnlite_global
+namespace uilib_global
 {
 	const int TOOL_TIP_INIT_TIME = 300;			//光标停留 TOOL_TIP_INIT_TIME毫秒之后 显示tip
 	const int TOOL_TIP_RESHOW_TIME = 100;			//获取当指针从一个工具移动到另一个工具时，后续工具提示窗口显示所需要的时间长度

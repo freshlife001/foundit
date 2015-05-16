@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="../;../../3rd_files/include;..\..\msnlite_plus\include\;../include"
+				AdditionalIncludeDirectories="../;../../3rd_files/include;../include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE;RECORD_LOG"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"

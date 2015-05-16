@@ -153,7 +153,7 @@ BOOL WLSkinSetupPanel::OnCreate( DWORD dwStyle, int x, int y, int cx, int cy, IW
 		return FALSE ;
 	m_btn_add_image.SetStyle(WLButtonAL::FITFRGNDSIZE) ;
 	m_btn_add_image.SetFrgnd(m_img_add_image, 3, WLButtonAL::FIXED) ;
-	m_btn_add_image.AddTooltip(_T("请点击选择一张图片，生成属于您自己风格的MSNLite皮肤。")) ;
+	m_btn_add_image.AddTooltip(_T("")) ;
 
 	// 系统颜色皮肤
 	left = 9 ;	top = 208 ; width = 17 ; height = 18 ; horz_space = 3 ; vert_space = 3 ;
@@ -224,7 +224,7 @@ void WLSkinSetupPanel::LoadRecentlySkinList()
 
 	// 获得所有皮肤
 	boost::shared_ptr<IPropertyTree> config ;
-	config = GetFrame()->GetConfig()->GetUIPrivatePropertyTree()->createView(MSNLite::skin) ;
+	config = GetFrame()->GetConfig()->GetUIPrivatePropertyTree()->createView(UILIB::skin) ;
 	SkinList all_skin_list ;
 	SkinHelper::LoadRecentlySkinList(config, all_skin_list) ;
 

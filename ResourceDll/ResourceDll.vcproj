@@ -89,7 +89,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy $(ProjectDir)resource.h $(SolutionDir)\..\msnlite_plus\include\uilib\common\utils\ImageEx\ImageResource.h"
+				CommandLine="copy $(ProjectDir)resource.h $(SolutionDir)\uilib\common\utils\ImageEx\ImageResource.h"
 			/>
 		</Configuration>
 		<Configuration

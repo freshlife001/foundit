@@ -27,7 +27,7 @@ UILIB_EXPORT bool IsEditPrint(TCHAR c) ;
 UILIB_EXPORT bool GetModuleFileName( std::wstring& fileName );
 
 // 获取当前程序所在目录
-UILIB_EXPORT bool GetMsnliteDirectory( std::wstring& moudleDir );
+UILIB_EXPORT bool GetAppDirectory( std::wstring& moudleDir );
 
 
 // 用于字典序的排序算子

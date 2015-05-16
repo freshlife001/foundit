@@ -420,7 +420,7 @@ bool GetModuleFileName( std::wstring& fileName )
 	return false;
 }
 
-bool GetMsnliteDirectory( std::wstring& moudleDir )
+bool GetAppDirectory( std::wstring& moudleDir )
 {
 	// 此处不使用GetCurrentDirectory, 是由于当前目录可能在存储文件类似操作修改， 不安全
 	TCHAR tcFilePath[MAX_PATH*2] = { 0 };
