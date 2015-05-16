@@ -1,5 +1,7 @@
 # foundit
-open source file search application, it will integrate with other local or internet based file search engine ,such as everything or ed2k search
+open source file search application, it will integrate with other local or internet based file search engine ,such as everything or ed2k search。
+
+now it's basically a framework, you can learn how to build a real working windows application with a well modulized MVC design pattern.
 
 Windows平台， 使用VS2008开发。
  
