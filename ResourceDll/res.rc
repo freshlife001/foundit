@@ -1,0 +1,110 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h/0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""/r/n"
+    "/0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "/r/n"
+    "/0"
+END
+
+#endif    // APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+// utility (101 - 300)
+IDI_BASE_WND_BKGND_PNG				IMAGE		"./Skin/base_wnd_bkgnd.png"
+
+IDI_DEFAULT_SKIN_IMAGE_PNG	IMAGE	"./Skin/default_skin_image.jpg"
+
+IDI_BTN_MIN_PNG					IMAGE		"./Skin/btn_min.png"
+IDI_BTN_MAX_PNG					IMAGE		"./Skin/btn_max.png"
+IDI_BTN_RESTORE_PNG				IMAGE		"./Skin/btn_restore.png"
+IDI_BTN_CLOSE_PNG				IMAGE		"./Skin/btn_close.png"
+
+IDI_PUSHBUTTON_PNG				IMAGE		"./Skin/pushbutton.png"
+IDI_CHECKBOX_BMP				IMAGE		"./Skin/checkbox.bmp"
+IDI_RADIOBOX_PNG				IMAGE		"./Skin/radiobox.png"
+
+IDI_MP_CHANNEL_PNG IMAGE "./Skin/mp_channel.png"
+IDI_MP_CHANNEL_ACTIVE_PNG IMAGE "./Skin/mp_channel_active.png"
+
+IDI_SCROLLBAR_PNG			IMAGE	"./Skin/scrollbar.png"
+
+IDI_MENU_BKGND_PNG			IMAGE	"./Skin/menu_bkgnd.png"
+IDI_MENU_ITEM_HOT_BKGND_PNG		IMAGE	"./Skin/menu_item_hot_bkgnd.png"
+IDI_MENU_RADIO_PNG			IMAGE	"./Skin/menu_radio.png"
+IDI_MENU_CHECK_PNG			IMAGE	"./Skin/menu_check.png"
+
+IDI_LINE_PNG		IMAGE	"./Skin/line.png"
+
+IDI_DRAG_TAB_ADD_PNG IMAGE	"./Skin/drag_tab_add.png"
+IDI_DRAG_TAB_ITEM_CLOSE_PNG IMAGE	"./Skin/drag_tab_item_close.png"
+IDI_DRAG_TAB_ITEM_PNG IMAGE	"./Skin/drag_tab_item.png"
+IDI_DRAG_TAB_BKGND_PNG IMAGE	"./Skin/drag_tab_bkgnd.png"
+
+IDI_SEARCH_INPUT_FRAME_PNG IMAGE "./Skin/search_input_frame.png"
+IDI_SEARCH_INPUT_MAGNIFIER_PNG IMAGE "./Skin/search_input_magnifier.png"
+IDI_SEARCH_ITEM_HOVER_PNG IMAGE "./Skin/item_hover.png"
+IDI_SEARCH_ITEM_SEL_PNG IMAGE "./Skin/item_sel.png"
+
+
+
+IDI_WND_FRAME_PNG			IMAGE		"./Skin/wnd_frame.png"
+
+// logging
+IDI_LOGWND_LOGGING_PNG			IMAGE		"./Skin/logwnd_logging.png"
+
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
